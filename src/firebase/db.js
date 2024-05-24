@@ -40,6 +40,7 @@ export const createOrder = async (order) => {
     try {
         const docRef = await addDoc(collection(db, "orders"), order);
         console.log("Documento escrito con el ID: ", docRef.id);
+        return docRef
 
     } catch (error) {
         console.error("Error al agregar el documento: ", error);

@@ -26,7 +26,7 @@ function CheckoutForm() {
             title: 'Orden Enviada',
             html: `
                 <p>Thank you for your purchase, ${newOrder.buyer.name}!</p>
-                <p>Order ID: ${orderId}</p>
+                <p>Order ID: ${orderId.id}</p>
                 <div class="order-items">
                     ${newOrder.items.map(item => `
                         <div class="item" key=${item.product.id}>

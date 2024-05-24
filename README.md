@@ -31,9 +31,7 @@ Instrucciones para ejecutar la App de eCommerce de manera local:
 3. Instalar dependencias:
    npm i
 
-4. Iniciar el servidor:
-
-npm start o npm run dev
+4. Iniciar el servidor: npm run dev
 
 5. En tu navegador de preferencia visitar `http://localhost:5173/` para ver la App.
 

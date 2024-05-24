@@ -16,14 +16,14 @@ La App de eCommerce permite ver productos, buscar por categoría, ver detalle de
 - Borrar productos del carrito.
 - Proceed to checkout and place orders.
 - Proceder al checkout, completar y enviar la orden.
-- Diseño responsivo para todos los dispositivos.
+- Diseño responsivo en la próxima actualización :)
 
 ## Instalación
 
 Instrucciones para ejecutar la App de eCommerce de manera local:
 
 1. Clonar el repositorio:
-   git clone https://github.com/Zieglering/ProyectoFinal-ReactJs-Ziegler
+   git clone https://github.com/Zieglering/ProyectoFinal-ReactJs-Ziegler.git
 
 2. Navegar al directorio del proyecto:
    cd ProyectoFinal-ReactJs-Ziegler
@@ -45,3 +45,7 @@ npm start o npm run dev
 4. Clickear en el carrito en la esquina superior derecha para navegar a la vista de carrito, en donde puedes modificar cantidades o remover productos
 5. Proceder al checkout y completar el formulario para completar la orden
 6. Al enviar la orden, recibirás un mensaje de confirmación con detalles de tu compra
+
+## Deploy
+
+https://proyecto-final-react-js-ziegler.vercel.app/

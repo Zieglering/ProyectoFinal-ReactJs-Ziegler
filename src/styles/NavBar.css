@@ -1,0 +1,133 @@
+.subtitulos {
+    color: #da8b42;
+    text-align: center;
+}
+
+.mysteryCH-NavColor {
+    background-color: #140e0e;
+    border-bottom: 0.1rem solid #d79d65;
+    padding: 20px 0;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.mysteryCH-NavColor .navbar-brand img {
+    height: 40px;
+}
+
+.mysteryCH-NavColor .nav-link {
+    color: #d79d65;
+}
+
+.mysteryCH-NavColor .nav-link:hover {
+    color: #fff7ef;
+}
+
+.mysteryCH-NavColor .nav-link:focus {
+    color: #d7c8b3;
+}
+
+.mysteryCH-NavColor .navbar-toggler-icon {
+    color: #ffffff;
+}
+
+.mysteryCH-NavColor .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.mysteryCH-NavColor .navbar-left,
+.mysteryCH-NavColor .navbar-center,
+.mysteryCH-NavColor .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.mysteryCH-NavColor .navbar-left {
+    display: flex;
+    flex: 1.2;
+  
+}
+
+.mysteryCH-NavColor .navbar-center {
+    flex: 4;
+}
+
+.mysteryCH-NavColor .navbar-right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.mysteryCH-NavColor .category-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mysteryCH-NavColor .category-filter h4 {
+    margin-bottom: 10px;
+}
+
+.mysteryCH-NavColor .category-filter .nav-item {
+    text-align: center;
+}
+
+.nav-pills {
+    color: #d79d65;
+}
+
+.mysteryCH-destacado .nav-pills .active {
+    background-color: #d79d65;
+    color: #d79d65;
+}
+
+.mysteryCH-destacado .nav-pills .nav-link:hover {
+    color: #fff7ef;
+}
+
+.mysteryCH-destacado .nav-pills .nav-link:focus {
+    color: #d7c8b3;
+}
+
+/* Color Boton */
+.cafe-color-boton {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #d79d65;
+    color: #3f3637;
+}
+
+.cafe-color-boton:hover {
+    background-color: #da8b42;
+    color: #3f3637;
+}
+
+.cafe-color-boton:focus {
+    background-color: #d79d65;
+    color: #3f3637;
+}
+
+.oscuro-color-boton {
+    background-color: #3f3637;
+    color: #d79d65;
+}
+
+.cartSize {
+    width: 2rem;
+}
+
+.cartPos {
+    padding-left: 2rem;
+}
+
+/* Keyframes */
+@keyframes fadeScale {
+    0% {
+        transform: scale(10);
+        animation-timing-function: linear;
+    }
+    100% {
+        transform: scale(2);
+        animation-timing-function: ease-out;
+    }
+}

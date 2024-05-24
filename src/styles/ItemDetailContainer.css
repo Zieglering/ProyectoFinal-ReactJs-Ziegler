@@ -1,0 +1,53 @@
+.grid-item {
+  display: flex;
+  flex: 0;
+  left: 50px;
+  margin-left: 50px;
+  padding: 50px;
+  margin: 50px;
+}
+.detail-container {
+  /* right: 50px; */
+  margin-left: 50px;
+  padding-left: 50px;
+  display: flex;
+  /* flex: 0; */
+  padding: 50px;
+  margin: 50px;
+}
+
+.detailCard {
+    max-width: 1500px;
+    padding: 50px;
+  margin: 50px;
+  }
+  
+  .itemCountButtons {
+    margin-left: 2px;
+  
+  }
+  
+  .btnDetails {
+    background-color: burlywood;
+    color: #140e0e;
+    font-size: 20px;
+    height: 50px;
+    align-content: center;
+  }
+  
+  .btnDetails:hover {
+    background-color: #140e0e;
+    color: bisque;
+  }
+  
+  .btnDetails a {
+    color: #140e0e;
+  }
+  
+  .btnDetailCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 60px;
+  }
+  

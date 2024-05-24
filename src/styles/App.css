@@ -1,0 +1,121 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+
+html {
+  background-color: #140e0e;
+  font-size: 100%;
+  color: #140e0e;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(229, 223, 216);
+  padding-bottom: 10px;
+}
+.grid-container {
+  flex: 0;
+}
+.product-container{
+        flex: 0;
+}
+.productos {
+  /* display: flex; */
+  flex: 0;
+  margin-top: 10rem;
+}
+
+.placeholderImage {
+  display: grid;
+  width: 18rem;
+}
+
+
+
+.mainTitle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.drinkText {
+  text-align: left;
+}
+
+.descriptionText {
+  color: rgb(116, 116, 116);
+  font-size: 15px;
+  max-height: 150px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.ingredientsText {
+  padding-top: 50px;
+  font-size: smaller;
+
+  text-align: left;
+  margin-left: 20px;
+}
+
+.ingredientsText li {
+
+  list-style: none;
+  text-align: left;
+}
+
+.coffeeCardContainer {
+  width: 15rem;
+}
+
+.coffeeImageContainer {
+  height: 100%;
+}
+
+.coffeeImage {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  max-height: 100px
+}
+
+.detailCard {
+  max-width: 640px;
+}
+
+.itemCountButtons {
+  margin-left: 2px;
+
+}
+
+.btnDetails {
+  background-color: burlywood;
+  color: #140e0e;
+  font-size: 20px;
+  height: 50px;
+  align-content: center;
+}
+
+.btnDetails:hover {
+  background-color: #140e0e;
+  color: bisque;
+}
+
+.btnDetails a {
+  color: #140e0e;
+}
+
+.btnDetailCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 60px;
+}
+
+.btnAddToCart {
+  background-color: burlywood;
+}

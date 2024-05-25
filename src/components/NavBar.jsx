@@ -25,8 +25,8 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <div className="navbar-center">
             <div className="category-filter">
-              <h4 className='subtitulos'>Filtra por categoría</h4>
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <h4 className='subtitulos'>Elejí una categoría, o explora nuestro catálogo</h4>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 nav-links-container">
                 <li className="nav-item">
                   <Link className="nav-link nav-pills" to='/category/coffee'>Café</Link>
                 </li>

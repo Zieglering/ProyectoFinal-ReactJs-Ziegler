@@ -25,18 +25,18 @@ function CheckoutForm() {
         Swal.fire({
             title: 'Orden Enviada',
             html: `
-                <p>Thank you for your purchase, ${newOrder.buyer.name}!</p>
-                <p>Order ID: ${orderId.id}</p>
+                <p>Gracias por tu compra, ${newOrder.buyer.name}!</p>
+                <p>Orden ID: ${orderId.id}</p>
                 <div class="order-items">
                     ${newOrder.items.map(item => `
                         <div class="item" key=${item.product.id}>
-                            <img src="${item.product.image}" alt="${item.product.title}" style="width: 50px; height: 50px;" />
+                            <img src="${item.product.image}" alt="${item.product.title}" className="order-image"/>
                             <div class="item-details">
                                 <span>${item.product.title}</span>
                                 <span>$${item.product.price * item.quantity}</span>
                             </div>
                             <div class="item-quantity">
-                                <span>Quantity: ${item.quantity}</span>
+                                <span>Cantidad: ${item.quantity}</span>
                             </div>
                         </div>
                     `).join('')}
